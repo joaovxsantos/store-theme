@@ -1,0 +1,46 @@
+{
+	"flex-layout.row#top-bar": {
+		"props": {
+			"blockClass": "top-bar"
+		},
+		"children": [
+			"flex-layout.col#left-side",
+			"flex-layout.col#mid-side",
+			"flex-layout.col#right-side"
+		]
+	},
+	"flex-layout.col#left-side": {
+		"children": [
+			"rich-text#text-title"
+		]
+	},
+	"rich-text#text-title": {
+		"props": {
+			"text": "aaa?"
+		}
+	},
+	"flex-layout.col#mid-side": {
+		// "children": [
+		// 	"list#mylist"
+		// ]
+	},
+	// "list#myList": {
+	// 	"props": {
+	// 		"items": [
+	// 			"item1",
+	// 			"item2",
+	// 			"item3"
+	// 		]
+	// 	}
+	// },
+	 "flex-layout.col#right-side": {
+		"children": [
+			"rich-text#text-right"
+		]
+	},
+	"rich-text#text-right": {
+		"props": {
+			"text": "right"
+		}
+	}
+}
